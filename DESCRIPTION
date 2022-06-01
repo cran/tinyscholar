@@ -1,6 +1,6 @@
 Package: tinyscholar
 Title: Get and Show Personal 'Google Scholar' Profile
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person(given = "Shixiang",
            family = "Wang",
@@ -14,13 +14,13 @@ License: MIT + file LICENSE
 URL: https://github.com/ShixiangWang/tinyscholar
 BugReports: https://github.com/ShixiangWang/tinyscholar/issues
 Imports: curl, dplyr, ggplot2, gt, jsonlite, magrittr, purrr, rlang (>=
-        0.1.2), rvest, stringr, xml2, R.utils
+        0.1.2), rvest (>= 1.0.0), stringr, xml2, R.utils
 Suggests: knitr, rmarkdown, roxygen2
 VignetteBuilder: knitr
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2021-10-26 03:44:00 UTC; wsx
+Packaged: 2022-06-01 09:40:16 UTC; wsx
 Author: Shixiang Wang [aut, cre] (<https://orcid.org/0000-0001-9855-7357>)
 Repository: CRAN
-Date/Publication: 2021-10-30 14:10:01 UTC
+Date/Publication: 2022-06-01 10:00:02 UTC
