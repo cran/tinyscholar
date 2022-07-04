@@ -1,6 +1,6 @@
 Package: tinyscholar
 Title: Get and Show Personal 'Google Scholar' Profile
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: 
     person(given = "Shixiang",
            family = "Wang",
@@ -20,7 +20,7 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2022-06-01 09:40:16 UTC; wsx
+Packaged: 2022-07-03 16:02:43 UTC; codespace
 Author: Shixiang Wang [aut, cre] (<https://orcid.org/0000-0001-9855-7357>)
 Repository: CRAN
-Date/Publication: 2022-06-01 10:00:02 UTC
+Date/Publication: 2022-07-04 13:00:02 UTC
