@@ -23,12 +23,12 @@ library(tinyscholar)
 profile <- tinyscholar("FvNp0NkAAAAJ")
 str(profile, max.level = 1)
 
-## -----------------------------------------------------------------------------
+## ----eval = inherits(profile, "ScholarProfile")-------------------------------
 tb <- scholar_table(profile)
 tb$citations
 tb$publications
 
-## ---- fig.align='center'------------------------------------------------------
+## ---- eval = inherits(profile, "ScholarProfile"), fig.align='center', fig.width=5, fig.height=3.5----
 pl <- scholar_plot(profile)
 pl$citations
 pl$publications
